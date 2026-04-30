@@ -1,7 +1,29 @@
+
 <!DOCTYPE html>
-    <html>
-    <head><title>My Resume</title></head>
-    <body style="margin:0;">
-        <embed src="Ganesh_Marmat_Agentic_AI_Engineer.pdf" type="application/pdf" width="100%" height="1000px" />
-    </body>
-    </html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; /* Prevents double scrollbars */
+        }
+        #resume-container {
+            width: 100%;
+            height: 100vh; /* Sets height to 100% of the Viewport Height */
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <embed 
+        src="Ganesh_Marmat_Agentic_AI_Engineer.pdf" 
+        type="application/pdf" 
+        id="resume-container"
+    />
+</body>
+</html>
